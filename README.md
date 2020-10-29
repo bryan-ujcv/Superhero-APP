@@ -4,5 +4,5 @@ Proyecto de la clase de Programacion de Dispositivos Moviles de la Universidad J
 
 Integrantes:
 -Bryan Nunez
--Carlos Cabrera
+-Carlos Cabrera el mero mero quesero
 -Nestor Martinez
