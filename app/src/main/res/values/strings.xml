@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Superhero App</string>
+
+    <!--- activity stats select -->
+    <!--- activity stats select -->
+    <string name="velocidad">Velocidad</string>
+    <string name="poder">Poder</string>
+    <string name="fuerza">Fuerza</string>
+    <string name="inteligencia">Inteligencia</string>
+    <string name="durabilidad">Durabilidad</string>
+    <string name="combate">Combate</string>
+
+
 </resources>
