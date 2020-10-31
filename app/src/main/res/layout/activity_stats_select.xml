@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     tools:context=".stats_select">
 
     <Button
@@ -12,10 +13,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="64dp"
         android:layout_marginTop="230dp"
-        android:text="@string/inteligencia"
+        android:text="@string/btn.inteligencia"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="@string/inteligencia" />
+        tools:text="@string/btn.inteligencia" />
 
     <Button
         android:id="@+id/btnStrength"
@@ -23,10 +24,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="230dp"
         android:layout_marginEnd="64dp"
-        android:text="@string/fuerza"
+        android:text="@string/btn.fuerza"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="@string/fuerza" />
+        tools:text="@string/btn.fuerza" />
 
     <Button
         android:id="@+id/btnSpeed"
@@ -35,11 +36,11 @@
         android:layout_marginStart="64dp"
         android:layout_marginTop="64dp"
         android:layout_marginBottom="64dp"
-        android:text="@string/velocidad"
+        android:text="@string/btn.velocidad"
         app:layout_constraintBottom_toTopOf="@+id/btnPower"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnIntelligence"
-        tools:text="@string/velocidad" />
+        tools:text="@string/btn.velocidad" />
 
     <Button
         android:id="@+id/btnDurability"
@@ -48,11 +49,11 @@
         android:layout_marginTop="64dp"
         android:layout_marginEnd="64dp"
         android:layout_marginBottom="64dp"
-        android:text="@string/durabilidad"
+        android:text="@string/btn.durabilidad"
         app:layout_constraintBottom_toTopOf="@+id/btnCombat"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnStrength"
-        tools:text="@string/durabilidad" />
+        tools:text="@string/btn.durabilidad" />
 
     <Button
         android:id="@+id/btnPower"
@@ -60,10 +61,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="65dp"
         android:layout_marginBottom="230dp"
-        android:text="@string/poder"
+        android:text="@string/btn.poder"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:text="@string/poder" />
+        tools:text="@string/btn.poder" />
 
     <Button
         android:id="@+id/btnCombat"
@@ -71,8 +72,20 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="64dp"
         android:layout_marginBottom="230dp"
-        android:text="@string/combate"
+        android:text="@string/btn.combate"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:text="@string/combate" />
+        tools:text="@string/btn.combate" />
+
+    <SearchView
+        android:id="@+id/svSearch"
+        android:layout_width="240dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

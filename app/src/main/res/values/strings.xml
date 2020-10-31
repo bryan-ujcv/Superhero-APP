@@ -2,13 +2,27 @@
     <string name="app_name">Superhero App</string>
 
     <!--- activity stats select -->
-    <!--- activity stats select -->
-    <string name="velocidad">Velocidad</string>
-    <string name="poder">Poder</string>
-    <string name="fuerza">Fuerza</string>
-    <string name="inteligencia">Inteligencia</string>
-    <string name="durabilidad">Durabilidad</string>
-    <string name="combate">Combate</string>
 
+    <!--- Seleccion de estadisticas por botones-->
+    <string name="btn.velocidad">Velocidad</string>
+    <string name="btn.poder">Poder</string>
+    <string name="btn.fuerza">Fuerza</string>
+    <string name="btn.inteligencia">Inteligencia</string>
+    <string name="btn.durabilidad">Durabilidad</string>
+    <string name="btn.combate">Combate</string>
+
+    <!---
+    Stats Editables
+    Estas se reciclan para cada personaje
+    -->
+    <string name="txt.velocidad">Velocidad = "%1$d"</string>
+    <string name="txt.poder">Poder = "%1$d"</string>
+    <string name="txt.fuerza">Fuerza = "%1$d"</string>
+    <string name="txt.inteligencia">Inteligencia = "%1$d"</string>
+    <string name="txt.durabilidad">Durabilidad = "%1$d"</string>
+    <string name="txt.combate">Combate = "%1$d"</string>
+
+    <!--- Barra de busqueda-->
+    <string name="busqueda">Buscar: Batman</string>
 
 </resources>
