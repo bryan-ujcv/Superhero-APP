@@ -14,6 +14,7 @@
         android:layout_marginStart="90dp"
         android:layout_marginTop="330dp"
         android:text="@string/txt.inteligencia"
+        android:textColor="@color/colorStats"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:text="@string/txt.inteligencia" />
