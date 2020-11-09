@@ -1,28 +1,46 @@
 <resources>
-    <string name="app_name">Superhero App</string>
 
-    <!--- activity stats select -->
+    <!--    text panel central   -->
+    <string name="app_name">superhero app 2</string>
+    <string name="supName"> </string>
+    <string name="btnStats">Power Stats</string>
+    <string name="btnBiography">Biography</string>
+    <string name="btnAppearance">Appearance</string>
+    <string name="btnWork">Work</string>
+    <string name="btnConnections">Connections</string>
+    <string name="btnImage">Image</string>
 
-    <!--- Seleccion de estadisticas por botones-->
-    <string name="btn.velocidad">Velocidad</string>
-    <string name="btn.poder">Poder</string>
-    <string name="btn.fuerza">Fuerza</string>
-    <string name="btn.inteligencia">Inteligencia</string>
-    <string name="btn.durabilidad">Durabilidad</string>
-    <string name="btn.combate">Combate</string>
+    <!--    text powerstats   -->
+    <string name="txtIntelligence">Intelligence</string>
+    <string name="txtStrength">Strength</string>
+    <string name="txtSpeed">Speed</string>
+    <string name="txtDurability">Durability</string>
+    <string name="txtPower">Power</string>
+    <string name="txtCombat">Combat</string>
 
-    <!---
-    Stats Editables
-    Estas se reciclan para cada personaje
-    -->
-    <string name="txt.velocidad">Velocidad = "%1$d"</string>
-    <string name="txt.poder">Poder = "%1$d"</string>
-    <string name="txt.fuerza">Fuerza = "%1$d"</string>
-    <string name="txt.inteligencia">Inteligencia = "%1$d"</string>
-    <string name="txt.durabilidad">Durabilidad = "%1$d"</string>
-    <string name="txt.combate">Combate = "%1$d"</string>
+    <!--    text biography   -->
+    <string name="txtFullName">Full Name</string>
+    <string name="txtAlterEgos">Alter Egos</string>
+    <string name="txtAliases">Aliases</string>
+    <string name="txtPlaceofBirth">Place of Birth</string>
+    <string name="txtFirstAppearance">First Appearance</string>
+    <string name="txtPublisher">Publisher</string>
+    <string name="txtAlignment">Alignment</string>
 
-    <!--- Barra de busqueda-->
-    <string name="busqueda">Buscar: Batman</string>
+    <!--    text appearance   -->
+    <string name="txtGender">Gender</string>
+    <string name="txtRace">Race</string>
+    <string name="txtHeight">Height</string>
+    <string name="txtWeight">Weight</string>
+    <string name="txtEyeColor">Eye Color</string>
+    <string name="txtHairColor">Hair Color</string>
+
+    <!--    text work   -->
+    <string name="txtOccupation">Occupation</string>
+    <string name="txtBaseofOperation">Base of Operation</string>
+
+    <!--    text connections   -->
+    <string name="txtGroupAffiliation">Group Affiliation</string>
+    <string name="txtRelatives">Relatives</string>
 
 </resources>

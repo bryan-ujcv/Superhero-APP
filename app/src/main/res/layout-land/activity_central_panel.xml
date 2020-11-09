@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   android:background="@drawable/background">
+
+    <TextView
+            android:text="@string/supName"
+            android:layout_width="306dp"
+            android:layout_height="57dp" android:id="@+id/supName"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="40dp" android:layout_marginStart="196dp"/>
+    <Button
+            android:text="@string/btnAppearance"
+            android:layout_width="306dp"
+            android:layout_height="57dp" android:id="@+id/btnAppearance"
+            app:layout_constraintStart_toStartOf="@+id/btnBio" android:layout_marginTop="32dp"
+            app:layout_constraintTop_toBottomOf="@+id/btnBio"/>
+    <Button
+            android:text="@string/btnWork"
+            android:layout_width="306dp"
+            android:layout_height="57dp" android:id="@+id/btnWork"
+            app:layout_constraintTop_toBottomOf="@+id/supName"
+            android:layout_marginTop="20dp" android:layout_marginEnd="16dp" app:layout_constraintEnd_toEndOf="parent"/>
+    <Button
+            android:text="@string/btnConnections"
+            android:layout_width="306dp"
+            android:layout_height="57dp" android:id="@+id/btnCon"
+            app:layout_constraintStart_toStartOf="@+id/btnWork" android:layout_marginTop="32dp"
+            app:layout_constraintTop_toBottomOf="@+id/btnWork"/>
+    <Button
+            android:text="@string/btnStats"
+            android:layout_width="306dp"
+            android:layout_height="57dp" android:id="@+id/pwrStats"
+            android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/supName" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp"/>
+    <Button
+            android:text="@string/btnBiography"
+            android:layout_width="306dp"
+            android:layout_height="57dp" android:id="@+id/btnBio"
+            app:layout_constraintStart_toStartOf="@+id/pwrStats" android:layout_marginTop="32dp"
+            app:layout_constraintTop_toBottomOf="@+id/pwrStats"/>
+    <Button
+            android:text="@string/btnImage"
+            android:layout_width="306dp"
+            android:layout_height="57dp" android:id="@+id/btnImg"
+            app:layout_constraintStart_toStartOf="@+id/btnCon" app:layout_constraintTop_toBottomOf="@+id/btnCon"
+            android:layout_marginTop="32dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

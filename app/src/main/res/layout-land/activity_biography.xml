@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   android:background="@drawable/background">
+
+
+    <TextView
+            android:text="@string/txtFullName"
+            android:layout_width="306dp"
+            android:layout_height="57dp" android:id="@+id/txtName"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="40dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="36dp"/>
+    <TextView
+            android:text="@string/txtAlterEgos"
+            android:layout_width="306dp"
+            android:layout_height="57dp" android:id="@+id/txtAlter"
+            app:layout_constraintStart_toStartOf="@+id/txtName" android:layout_marginTop="32dp"
+            app:layout_constraintTop_toBottomOf="@+id/txtName"/>
+    <TextView
+            android:text="@string/txtAliases"
+            android:layout_width="306dp"
+            android:layout_height="57dp" android:id="@+id/txtAlies"
+            app:layout_constraintStart_toStartOf="@+id/txtAlter" android:layout_marginTop="32dp"
+            app:layout_constraintTop_toBottomOf="@+id/txtAlter"/>
+    <TextView
+            android:text="@string/txtPlaceofBirth"
+            android:layout_width="306dp"
+            android:layout_height="57dp" android:id="@+id/txtPlaceBirth"
+            app:layout_constraintStart_toStartOf="@+id/txtAlies" android:layout_marginTop="32dp"
+            app:layout_constraintTop_toBottomOf="@+id/txtAlies"/>
+    <TextView
+            android:text="@string/txtPublisher"
+            android:layout_width="306dp"
+            android:layout_height="57dp" android:id="@+id/txtPubli"
+            app:layout_constraintStart_toStartOf="@+id/txtFirstapp" android:layout_marginTop="32dp"
+            app:layout_constraintTop_toBottomOf="@+id/txtFirstapp"/>
+    <TextView
+            android:text="@string/txtAlignment"
+            android:layout_width="306dp"
+            android:layout_height="57dp" android:id="@+id/txtAlign"
+            app:layout_constraintStart_toStartOf="@+id/txtPubli" android:layout_marginTop="32dp"
+            app:layout_constraintTop_toBottomOf="@+id/txtPubli"/>
+    <TextView
+            android:text="@string/txtFirstAppearance"
+            android:layout_width="306dp"
+            android:layout_height="57dp" android:id="@+id/txtFirstapp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="78dp" android:layout_marginEnd="26dp" app:layout_constraintEnd_toEndOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
