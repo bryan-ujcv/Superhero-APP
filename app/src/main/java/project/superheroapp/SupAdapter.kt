@@ -1,5 +1,6 @@
 package com.app.superheroapp2
 
+import android.content.Intent
 import android.provider.MediaStore
 import android.view.LayoutInflater
 import android.view.View
@@ -23,9 +24,20 @@ class SupAdapter (val image: List<String>): RecyclerView.Adapter<SupAdapter.View
         return image.size
     }
 
+    fun onclick_menutats(){
+        pwrStats.setOnClickListener(){
+            val powerstatsmenu: Intent= Intent(applicationcontext,SupResponse::class.java)
+            startActivity(powerstatsmenu)
+        }
+    }
+
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         fun bind(image: String) {
             itemView.ivDog.fromUrl(image)
         }
     }
+
+
+
+
 }
