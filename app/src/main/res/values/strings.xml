@@ -9,7 +9,6 @@
     <string name="btnWork">Work</string>
     <string name="btnConnections">Connections</string>
     <string name="btnImage">Image</string>
-    <string name="api_key">3539424979434165</string>
 
     <!--    text powerstats   -->
     <string name="txtIntelligence">Intelligence</string>
