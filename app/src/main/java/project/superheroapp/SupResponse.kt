@@ -1,5 +1,16 @@
-package com.app.superheroapp2
+package project.superheroapp
 
-import com.google.gson.annotations.SerializedName
-
-data class SupResponse(@SerializedName("status") var status:String, @SerializedName("message") var image: List<String>)
+data class SupResponse(
+    val count:Int,
+    val results:List<Superhero>
+){
+    class Superhero(
+        val name:String,
+        val url:String
+    ){
+        fun getId():Int{
+            val partes=url.split("/")
+            return partes[partes.size-2].toInt()
+        }
+    }
+}
